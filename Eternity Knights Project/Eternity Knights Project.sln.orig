@@ -1,0 +1,65 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{551734EB-62A5-0718-9EA0-DC67C2F569D8}") = "Eternity Knights Project", "Assembly-CSharp.csproj", "{80D65708-7F79-ADE0-22FA-AB57361F73CB}"
+EndProject
+Project("{551734EB-62A5-0718-9EA0-DC67C2F569D8}") = "Eternity Knights Project", "Assembly-CSharp-Editor.csproj", "{88A7BB0F-820B-F96B-6C62-A6F0C4585869}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80D65708-7F79-ADE0-22FA-AB57361F73CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D65708-7F79-ADE0-22FA-AB57361F73CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D65708-7F79-ADE0-22FA-AB57361F73CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D65708-7F79-ADE0-22FA-AB57361F73CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A7BB0F-820B-F96B-6C62-A6F0C4585869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A7BB0F-820B-F96B-6C62-A6F0C4585869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A7BB0F-820B-F96B-6C62-A6F0C4585869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A7BB0F-820B-F96B-6C62-A6F0C4585869}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+																																																																													GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 120
+		$1.TabWidth = 2
+		$1.IndentWidth = 2
+		$1.EolMarker = Windows
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabsToSpaces = False
+		$3.EolMarker = Windows
+		$3.inheritsSet = VisualStudio
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+		$0.DotNetNamingPolicy = $4
+		$4.DirectoryNamespaceAssociation = None
+		$4.ResourceNamePolicy = FileFormatDefault
+		$0.TextStylePolicy = $5
+		$5.inheritsSet = null
+		$5.scope = text/x-unitytxt
+		$0.TextStylePolicy = $6
+		$6.inheritsSet = null
+		$6.scope = application/xml
+		$0.XmlFormattingPolicy = $7
+		$7.inheritsSet = Mono
+		$7.inheritsScope = application/xml
+		$7.scope = application/xml
+		$0.StandardHeader = $8
+		$8.Text = 
+		$8.IncludeInNewFiles = True
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+<DialogXML>
+	<Dialog>
+		<Sentence author="Toto">
+			<text>
+				Bonjour, je suis toto !
+			</text>
+		</Sentence>
+		<Sentence author="Player">
+			<text>
+				Et qu'est-ce que ça fait ?
+			</text>
+		</Sentence>
+		<Sentence author="Toto">
+			<text>
+			Pas grand chose, si ce n'est que la quête fonctionne !
+			Allez donc voir Tonton ou Dudu !
+			</text>
+		</Sentence>
+		<Sentence>
+			<text>END_OF_CONV</text>
+			<postAction>TestQuestMkIIActions:OnTotoTalked</postAction>
+		</Sentence>
+	</Dialog>
+</DialogXML>

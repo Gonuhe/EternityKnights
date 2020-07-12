@@ -1,0 +1,23 @@
+<DialogXML>
+	<Dialog>
+		<Sentence author="Tonton">
+			<text>
+				Yop! Je suis Tonton !
+			</text>
+		</Sentence>
+		<Sentence author="Player">
+			<text>
+				Toto m'a dit de vous parler.
+			</text>
+		</Sentence>
+		<Sentence author="Toto">
+			<text>
+			Quel enquiquineur, celui-là !
+			</text>
+		</Sentence>
+		<Sentence>
+			<text>END_OF_CONV</text>
+			<postAction>TestQuestMkIIActions:OnTontonTalked</postAction>
+		</Sentence>
+	</Dialog>
+</DialogXML>

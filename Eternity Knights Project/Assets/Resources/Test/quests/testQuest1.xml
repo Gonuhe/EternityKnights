@@ -1,0 +1,85 @@
+<Quest id="test1" name="la quête du test">
+
+  <description>
+  THE QUEST FOR THE HOLY TEST!
+  </description>
+
+  <preconditions>
+    <condition type="or">
+      <subConditions>
+        <condition type="characterAlive" mustBe="true" arg="Arthur de Bretagne" />
+        <condition type="questStepDone" mustBe="false" arg="otherQuest:step2"/>
+       </subConditions>
+    </condition>
+  </preconditions>
+  
+  <invariants>
+    <condition type="questStepDone" mustBe="false" arg="otherQuest:step2"/>
+  </invariants>
+  
+  <questTree>
+    <steps>
+      <step id="secondStep">
+        <preconditions>
+          <condition type="characterAlive" arg="Caradoc"/>
+        </preconditions>
+        
+        <invariants>
+          <condition type="itemAcquired" mustBe="false" arg="Uchigatana"/>
+        </invariants>
+        
+        <description>
+          Deuxième étape
+        </description>
+        
+        <nextStepText>
+          Encore une étape!
+        </nextStepText>
+        
+        <subSteps>
+          <subStep id="sub1" validationCount="3"/>
+        </subSteps>
+      </step>
+    
+      <step id="thirdStep">
+        <description>
+          Etape de départ
+        </description>     
+        
+        <nextStepText>
+          Après, c'est fini!
+        </nextStepText>
+        
+        <subSteps>
+          <subStep id="sub1" validationCount="3"/>
+          <subStep id="sub2" validationCount="1"/>
+        </subSteps>
+      </step>
+      
+      <step id="initialStep">
+        <description>
+          Etape de départ
+        </description>     
+        
+        <nextStepText>
+          L'étape suivante sera la deuxième, amenez le compteur à 3 pour arranger ça! 
+        </nextStepText>
+        
+        <subSteps>
+          <subStep id="sub1" validationCount="3"/>
+          <subStep id="sub2" validationCount="1"/>
+        </subSteps>
+      </step>
+    </steps>
+    
+    <root stepId="initialStep">
+      <children>
+        <child stepId="secondStep">
+          <children>
+            <child stepId="thirdStep"/>
+          </children>
+        </child>
+      </children> 
+    </root>
+  </questTree>
+</Quest>

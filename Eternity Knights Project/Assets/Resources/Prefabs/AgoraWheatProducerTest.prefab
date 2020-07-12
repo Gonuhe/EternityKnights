@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &112384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 468990}
+  - 114: {fileID: 11419604}
+  - 114: {fileID: 11415206}
+  - 114: {fileID: 11464934}
+  - 114: {fileID: 11469772}
+  - 114: {fileID: 11489028}
+  - 114: {fileID: 11433756}
+  - 114: {fileID: 11437068}
+  - 114: {fileID: 11415584}
+  m_Layer: 0
+  m_Name: AgoraWheatProducerTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &468990
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112384}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -54.048687, y: -27.99589, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11415206
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34333e4cedea97143a5e909cbc96d644, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalStockLimit: 10
+--- !u!114 &11415584
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d7f98f52c284eb4fafaf55eb3017983, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11419604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d92530314d6e7d44b061cdb2bfc0741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentStock: {fileID: 0}
+  carriersNber: 1
+  carrierPrefab: {fileID: 11407822, guid: 15e11c0abf1a48f40a4c36b52db0f283, type: 2}
+  _availableCarriers: 0
+  freightAreaIn: {fileID: 0}
+  freightAreaOut: {fileID: 0}
+--- !u!114 &11433756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a12e149c5bbf4d43891b0b663e55298, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  capacity: 4
+  workerCount: 0
+--- !u!114 &11437068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb7b7c4df64082d458cbdc4a1ea0fe9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  consumptionEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  consumptionRate: 30
+  requirementsBufferSize: 5
+  requirements:
+  - resourceName: wood
+    amount: 1
+  productionBufferSize: 3
+  orderManager: {fileID: 0}
+  production:
+  - resourceName: wheat
+    amount: 1
+--- !u!114 &11464934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cdf4f3ce296bc46bfa34d5d17d6f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stockLock: {fileID: 0}
+  freightAreaData: {fileID: 0}
+--- !u!114 &11469772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e96bd47d90484428048d76537b5a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxOrderedAmount: 3
+  stock: {fileID: 0}
+  freightAreaData: {fileID: 0}
+  ignoreInStockManager: 1
+--- !u!114 &11489028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f98a3586455194cbd110a69bf4b92b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orderManager: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: carriersNber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ignoreInStockManager
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 112384}
+  m_IsPrefabParent: 1

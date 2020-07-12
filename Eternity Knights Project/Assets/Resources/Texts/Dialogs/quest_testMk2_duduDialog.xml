@@ -1,0 +1,23 @@
+<DialogXML>
+	<Dialog>
+		<Sentence author="Dudu">
+			<text>
+				Salutations, je suis Dudu !
+			</text>
+		</Sentence>
+		<Sentence author="Player">
+			<text>
+				Toto m'a dit de vous parler.
+			</text>
+		</Sentence>
+		<Sentence author="Toto">
+			<text>
+			Il a bien eu raison, ça fonctionne !
+			</text>
+		</Sentence>
+		<Sentence>
+			<text>END_OF_CONV</text>
+			<postAction>TestQuestMkIIActions:OnDuduTalked</postAction>
+		</Sentence>
+	</Dialog>
+</DialogXML>

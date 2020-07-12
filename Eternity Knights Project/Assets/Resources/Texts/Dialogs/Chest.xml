@@ -1,0 +1,10 @@
+<DialogXML>
+	<Dialog>
+		<Sentence>
+			<text author="Chest">
+				Vous avez trouvé l'objet %1% (x%2%)!
+				Il a été ajouté à votre inventaire !
+			</text>
+		</Sentence>
+	</Dialog>
+</DialogXML>

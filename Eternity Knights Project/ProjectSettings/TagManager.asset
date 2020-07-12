@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Home
+  - WorkPlace
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - roads
+  - buildings
+  - characters
+  - building placer
+  - player
+  - monster
+  - DetectionZone
+  - 
+  - characterObstacles
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Map
+    uniqueID: 4234664261
+    locked: 0
+  - name: Roads
+    uniqueID: 2361245425
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Buildings' roofs
+    uniqueID: 3234006309
+    locked: 0
+  - name: New Layer
+    uniqueID: 3805087471
+    locked: 0

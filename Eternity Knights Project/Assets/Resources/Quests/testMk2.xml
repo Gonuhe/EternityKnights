@@ -1,0 +1,116 @@
+<Quest id="testMk2" name="Quête de test mk II" hidden="false" postAction="TestQuestMkIIActions:Cadoc">
+
+  <description>
+  THE QUEST FOR THE HOLY TEST!
+  </description>
+
+  <preconditions>
+  </preconditions>
+  
+  <invariants>
+  </invariants>
+  
+  <questTree>
+    <steps>
+      <step id="test1" preAction="TestQuestMkIIActions:CreateToto" postAction="TestQuestMkIIActions:DestroyToto">
+        <postGoalDescription>
+          1ère étape MkII !
+        </postGoalDescription>
+        
+        <goalDescription>
+          Parlez à toto!
+        </goalDescription>
+      
+        <preconditions>
+        </preconditions>
+        
+        <invariants>
+          <condition type="characterAlive" arg="toto"/>
+        </invariants>                   
+        
+        <subSteps>
+          <subStep id="characterTalked" validationCount="1"/>
+        </subSteps>
+      </step>
+    
+      <step id="test2" preAction="TestQuestMkIIActions:BLC" postAction="TestQuestMkIIActions:Marsupilami">
+        <postGoalDescription>
+          2ème étape MkII !
+        </postGoalDescription>
+        
+        <goalDescription>
+          Parlez à Dudu ou Tonton
+        </goalDescription>
+      
+        <preconditions>
+        </preconditions>
+        
+        <invariants>
+          <condition type="or">
+            <subConditions>
+              <condition type="characterAlive" arg="Dudu"/>
+              <condition type="charcaterAlive" arg="Tonton"/>
+            </subConditions>
+          </condition>
+        </invariants>                   
+        
+        <subSteps>
+          <subStep id="talk" validationCount="1"/>
+        </subSteps>
+      </step>
+      
+      <step id="test3_Tonton" preAction="TestQuestMkIIActions:Test3PreT" postAction="TestQuestMkIIActions:Test3PostT">
+        <postGoalDescription>
+          3ème étape MkII en choisissant Tonton !
+        </postGoalDescription>
+        
+        <goalDescription>
+          Attendez 30 secondes !
+        </goalDescription>
+      
+        <preconditions>
+          <condition type="narrativeProperty" arg="testMk2:TontonTalked"/>
+        </preconditions>
+        
+        <invariants>
+        </invariants>                   
+        
+        <subSteps>
+          <subStep id="counter" validationCount="1"/>
+        </subSteps>
+      </step>
+    
+      <step id="test3_Dudu" preAction="TestQuestMkIIActions:Test3PreD" postAction="TestQuestMkIIActions:Test3PostD">
+        <postGoalDescription>
+          3ème étape MkII en choisissant Dudu !
+        </postGoalDescription>
+        
+        <goalDescription>
+          Attendez 10 secondes !
+        </goalDescription>
+      
+        <preconditions>
+          <condition type="narrativeProperty" arg="testMk2:DuduTalked"/>
+        </preconditions>
+        
+        <invariants>
+        </invariants>                   
+        
+        <subSteps>
+          <subStep id="counter" validationCount="1"/>
+        </subSteps>
+      </step>
+    </steps>
+    
+    <root stepId="test1">
+      <children>
+        <child stepId="test2">
+          <children>
+            <child stepId="test3_Tonton"/>
+            <child stepId="test3_Dudu"/>
+          </children>
+        </child>
+      </children> 
+    </root>
+  </questTree>
+</Quest>

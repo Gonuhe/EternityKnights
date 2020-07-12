@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{80D65708-7F79-ADE0-22FA-AB57361F73CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_2;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\AgoraTest.cs" />
+     <Compile Include="Assets\Scripts\InventoryTest.cs" />
+     <Compile Include="Assets\Scripts\MoveTest.cs" />
+     <Compile Include="Assets\Scripts\MovieTest.cs" />
+     <Compile Include="Assets\Scripts\SelectionTest.cs" />
+     <Compile Include="Assets\Scripts\TestBuildingInside.cs" />
+     <Compile Include="Assets\Scripts\TestCollision.cs" />
+     <Compile Include="Assets\Scripts\TestDialogReflection.cs" />
+     <Compile Include="Assets\Scripts\TestGetComponentOnChild.cs" />
+     <Compile Include="Assets\Scripts\TestLazy.cs" />
+     <Compile Include="Assets\Scripts\TestQuestXML.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\CityBuilderResources.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\PNJBehaviour\Human.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\PNJBehaviour\Prefect.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\Agora.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\AgoraMerchant.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\AgoraOrderManager.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\Building.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\DungeonData.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\Evolution\FarmEvolutionData.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\Evolution\HomeEvolutionData.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\EvolutionData.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\EvolutionManager.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\Home.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\HumanGenerator.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\KeepAsideOrderManager.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\OrderManager.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\Prefecture.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\ResourceConsumer.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\ResourceProducer.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\Warehouse.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\Well.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\buildingBehaviours\WorkPlace.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\camera\CityBuilderCameraMotionManager.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\data\BuildingStock.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\data\PlacementData.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\data\ResourceOrder.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\data\ResourceShipment.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\data\RoadData.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\data\StockLock.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\data\StockManager.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\placement\PlacementListener.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\roads\FreightAreaData.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\roads\FreightAreaIn.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\roads\FreightAreaOut.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\roads\PlayerSafeRoadZone.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\roads\RoadLock.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\roads\RoadSpriteModifier.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\roads\freightAreaBehaviours\CarriersToStockFreightAreaInBehaviour.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\roads\freightAreaBehaviours\FreightAreaInBehaviour.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\roads\freightAreaBehaviours\HomeCarriersFreightAreaInBehaviour.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\roads\freightAreaBehaviours\KeepAsideManagementFreightAreaInBehaviour.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\roads\freightAreaBehaviours\WellFreightAreaInBehaviour.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\roads\marking\FreightAreaInPathMarker.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\roads\marking\FreightAreaOutPathMarker.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\ui\CityBuilderDisplayWindow.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\ui\CityBuilderDisplayable.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\ui\CityBuilderUI.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\ui\CityBuilderUIActions.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\ui\ProgressBarBuilding.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\ui\detailsWindow\BuildingDetailsWindowController.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\ui\detailsWindow\HomeDetailsWindowController.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\ui\detailsWindow\WorkPlaceDetailsWindowController.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\ui\mainMode\PopulationTextScript.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\ui\mainMode\TreasuryTextScript.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\ui\placingMode\AntiBuildingPlacer.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\ui\placingMode\BuildingPlacer.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\ui\placingMode\MutliplePlacementData.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\ui\placingMode\PlacerController.cs" />
+     <Compile Include="Assets\Scripts\cityBuilder\ui\resourceEntry\ResourceEntryController.cs" />
+     <Compile Include="Assets\Scripts\control\CameraSize.cs" />
+     <Compile Include="Assets\Scripts\control\GameManager.cs" />
+     <Compile Include="Assets\Scripts\control\GameMode.cs" />
+     <Compile Include="Assets\Scripts\control\GameModes.cs" />
+     <Compile Include="Assets\Scripts\control\GameOver.cs" />
+     <Compile Include="Assets\Scripts\control\MainMusicManager.cs" />
+     <Compile Include="Assets\Scripts\control\data\CityBuilderData.cs" />
+     <Compile Include="Assets\Scripts\control\data\RPGData.cs" />
+     <Compile Include="Assets\Scripts\control\events\Events.cs" />
+     <Compile Include="Assets\Scripts\control\events\EventsManager.cs" />
+     <Compile Include="Assets\Scripts\control\events\FreightAreaEvent.cs" />
+     <Compile Include="Assets\Scripts\control\events\GameObjectEvent.cs" />
+     <Compile Include="Assets\Scripts\control\events\RetryDataEvent.cs" />
+     <Compile Include="Assets\Scripts\control\gameModes\CityBuilderDestroyMode.cs" />
+     <Compile Include="Assets\Scripts\control\gameModes\CityBuilderMainMode.cs" />
+     <Compile Include="Assets\Scripts\control\gameModes\CityBuilderPlacingMode.cs" />
+     <Compile Include="Assets\Scripts\control\gameModes\CityBuilderShowingDetailsMode.cs" />
+     <Compile Include="Assets\Scripts\control\gameModes\DialogMode.cs" />
+     <Compile Include="Assets\Scripts\control\gameModes\InventoryMode.cs" />
+     <Compile Include="Assets\Scripts\control\gameModes\QuestUIMode.cs" />
+     <Compile Include="Assets\Scripts\control\gameModes\RPGCombatMode.cs" />
+     <Compile Include="Assets\Scripts\control\gameModes\RPGMainMode.cs" />
+     <Compile Include="Assets\Scripts\dialog\ArgumentProvider.cs" />
+     <Compile Include="Assets\Scripts\dialog\ChestArgumentProvider.cs" />
+     <Compile Include="Assets\Scripts\dialog\ChoiceManager.cs" />
+     <Compile Include="Assets\Scripts\dialog\DefaultDialogLauncher.cs" />
+     <Compile Include="Assets\Scripts\dialog\DialogManager.cs" />
+     <Compile Include="Assets\Scripts\dialog\DialogPostAction.cs" />
+     <Compile Include="Assets\Scripts\dialog\DialogXml.cs" />
+     <Compile Include="Assets\Scripts\move\MoveDescriptor.cs" />
+     <Compile Include="Assets\Scripts\move\RetryData.cs" />
+     <Compile Include="Assets\Scripts\move\RoadsPathfinding.cs" />
+     <Compile Include="Assets\Scripts\move\ShiftDescriptor.cs" />
+     <Compile Include="Assets\Scripts\move\TSP.cs" />
+     <Compile Include="Assets\Scripts\questActions\TestQuestMkIIActions.cs" />
+     <Compile Include="Assets\Scripts\rpg\Chest.cs" />
+     <Compile Include="Assets\Scripts\rpg\MonsterRandomMover.cs" />
+     <Compile Include="Assets\Scripts\rpg\attributes\Selectable.cs" />
+     <Compile Include="Assets\Scripts\rpg\attributes\WarpZone.cs" />
+     <Compile Include="Assets\Scripts\rpg\camera\RPGCameraMotionManager.cs" />
+     <Compile Include="Assets\Scripts\rpg\characters\Monsters\Monster.cs" />
+     <Compile Include="Assets\Scripts\rpg\characters\attributes\MoveManager.cs" />
+     <Compile Include="Assets\Scripts\rpg\characters\attributes\Orientation.cs" />
+     <Compile Include="Assets\Scripts\rpg\characters\attributes\PlayerMoveManager.cs" />
+     <Compile Include="Assets\Scripts\rpg\characters\attributes\ResourceCarrier.cs" />
+     <Compile Include="Assets\Scripts\rpg\characters\attributes\RoadRouteManager.cs" />
+     <Compile Include="Assets\Scripts\rpg\characters\attributes\util\SearchData.cs" />
+     <Compile Include="Assets\Scripts\rpg\insides\BuildingInside.cs" />
+     <Compile Include="Assets\Scripts\rpg\insides\BuildingInsideArrangement.cs" />
+     <Compile Include="Assets\Scripts\rpg\insides\EntryPoint.cs" />
+     <Compile Include="Assets\Scripts\rpg\player\Combat.cs" />
+     <Compile Include="Assets\Scripts\rpg\player\Inventory\Inventory.cs" />
+     <Compile Include="Assets\Scripts\rpg\player\Inventory\InventoryTrigger.cs" />
+     <Compile Include="Assets\Scripts\rpg\player\Inventory\InventoryUI.cs" />
+     <Compile Include="Assets\Scripts\rpg\player\Inventory\Item.cs" />
+     <Compile Include="Assets\Scripts\rpg\player\Inventory\ItemDB.cs" />
+     <Compile Include="Assets\Scripts\rpg\player\Inventory\Slot.cs" />
+     <Compile Include="Assets\Scripts\rpg\player\MonsterDetector.cs" />
+     <Compile Include="Assets\Scripts\rpg\player\Player.cs" />
+     <Compile Include="Assets\Scripts\rpg\player\PlayerSelectionManager.cs" />
+     <Compile Include="Assets\Scripts\rpg\quests\Quest.cs" />
+     <Compile Include="Assets\Scripts\rpg\quests\QuestCondition.cs" />
+     <Compile Include="Assets\Scripts\rpg\quests\QuestDetailsUI.cs" />
+     <Compile Include="Assets\Scripts\rpg\quests\QuestManager.cs" />
+     <Compile Include="Assets\Scripts\rpg\quests\QuestStep.cs" />
+     <Compile Include="Assets\Scripts\rpg\quests\QuestSubStep.cs" />
+     <Compile Include="Assets\Scripts\rpg\quests\QuestTree.cs" />
+     <Compile Include="Assets\Scripts\rpg\quests\QuestTreeNode.cs" />
+     <Compile Include="Assets\Scripts\rpg\quests\QuestUI.cs" />
+     <Compile Include="Assets\Scripts\rpg\quests\QuestUITrigger.cs" />
+     <Compile Include="Assets\Scripts\rpg\ui\HealthTextScript.cs" />
+     <Compile Include="Assets\Scripts\rpg\ui\MoneyTextScript.cs" />
+     <Compile Include="Assets\Scripts\rpg\ui\RPGUI.cs" />
+     <Compile Include="Assets\Scripts\util\Cell.cs" />
+     <Compile Include="Assets\Scripts\util\PriorityQueue.cs" />
+     <Compile Include="Assets\Scripts\util\Utils.cs" />
+     <Compile Include="Assets\SmartLocalization\Examples\LoadAllLanguages.cs" />
+     <Compile Include="Assets\SmartLocalization\Scripts\NGUI\SL_NGUILabel.cs" />
+     <Compile Include="Assets\SmartLocalization\Scripts\NGUI\SL_NGUISpriteAtlas.cs" />
+     <Compile Include="Assets\SmartLocalization\Scripts\NGUI\SL_NGUISpriteName.cs" />
+     <Compile Include="Assets\SmartLocalization\Scripts\uGUI\LocalizedText.cs" />
+     <None Include="Assets\Resources\Quests\testMk2.xml" />
+     <None Include="Assets\Resources\Texts\Dialogs\quest_testMk2_duduDialog.xml" />
+     <None Include="Assets\Resources\Texts\Dialogs\quest_testMk2_tontonDialog.xml" />
+     <None Include="Assets\SmartLocalizationWorkspace\AutoGenerated\Resources\Language.fr.txt" />
+     <None Include="Assets\SmartLocalization\smartloc_licenses.txt" />
+     <None Include="Assets\Resources\Test\Game Boy Advance - Golden Sun 2 The Lost Age - Briggs\anim-info.txt" />
+     <None Include="Assets\Resources\Test\quests\testQuest1.xml" />
+     <None Include="Assets\SmartLocalization\README.txt" />
+     <None Include="Assets\SmartLocalization\Resources\EmptyResourceHeader.txt" />
+     <None Include="Assets\Resources\Texts\Dialogs\quest_testMk2_totoDialog.xml" />
+     <None Include="Assets\Resources\Texts\Dialogs\Chest.xml" />
+     <None Include="Assets\Resources\Texts\Dialogs\test.xml" />
+     <None Include="Assets\SmartLocalizationWorkspace\AutoGenerated\Resources\Language.txt" />
+     <None Include="Assets\SmartLocalizationWorkspace\Data\SmartCultureInfoData\SmartCultureInfo.xml" />
+     <None Include="Assets\Resources\Texts\Dialogs\Basic.xml" />
+     <None Include="Assets\SmartLocalizationWorkspace\AutoGenerated\Resources\AvailableCultures.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="SmartLocalization_Runtime">
+ <HintPath>D:/Workspace/EternityKnights/Eternity Knights Project/Assets/SmartLocalization/SmartLocalization_Runtime.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

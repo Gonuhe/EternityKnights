@@ -1,0 +1,79 @@
+<DialogXML>
+	<Dialog>
+		<Sentence>
+			<text author="Pavel">
+				Pavel : Ceci est votre donjon !
+			</text>
+		</Sentence>
+		<Sentence>
+			<text author="Pavel">
+				Pavel : Comme vous le voyez,
+				il est encore loin d'être terminée
+			</text>
+		</Sentence>
+		<Sentence>
+			<text author="Pavel">
+				Pavel : En attendant, vous devriez vous
+				concentrer sur les autres aspects de votre ville !
+			</text>
+		</Sentence>
+		<Sentence>
+			<text author="Pavel">
+				Pavel : Que projetez-vous de développer
+				en premier ?
+			</text>
+		</Sentence>
+		<Sentence id="2">
+			<text author="Player">
+				
+			</text>
+			<Choices>
+			<Choice goToId="1">
+				<text>La population</text>
+			</Choice>
+			<Choice goToId="4">
+				<text>La sécurité</text>
+			</Choice>
+			<Choice goToId="3">
+				<text>Le commerce</text>
+			</Choice>
+		</Choices>
+		</Sentence>
+		<Sentence id="3">
+			<text>Pavel : Si pressé ? Vous pouvez déjà construire
+			des fermes, des entrepôts et des entreprises !</text>
+		</Sentence>
+		<Sentence>
+			<text>Pavel : Mais comme vous le verrez, ces bâtiments sont
+			encore nouvellement créés des dieux,</text>
+		</Sentence>
+		<Sentence>
+			<text>Pavel : Certains sont encore habités d'âmes divines
+			protectrices ! Des âmes... héroïques !</text>
+		</Sentence>
+		<Sentence >
+			<text>END_OF_CONV</text>
+		</Sentence>
+		<Sentence id="1">
+			<text>Pavel : Pour celà, il vous faudra construire
+			beaucoup de maisons !</text>
+		</Sentence>
+		<Sentence>
+			<text>Pavel : N'oubliez pas de mettre des puits
+			pour les faire évoluer !</text>
+		</Sentence>
+		<Sentence>
+			<text>Pavel : Bonne chance !</text>
+		</Sentence>
+		<Sentence>
+			<text>END_OF_CONV</text>
+		</Sentence>
+		<Sentence id="4">
+			<text>Pavel : Pour la sécurité, il vous faudra
+			une préfecture</text>
+		</Sentence>
+		<Sentence>
+			<text>Pavel : Bonne chance !</text>
+		</Sentence>
+	</Dialog>
+</DialogXML>

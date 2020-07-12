@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &120558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 417176}
+  - 114: {fileID: 11486010}
+  - 114: {fileID: 11411188}
+  - 114: {fileID: 11480866}
+  - 114: {fileID: 11439846}
+  - 114: {fileID: 11464728}
+  - 114: {fileID: 11416466}
+  - 114: {fileID: 11477410}
+  - 114: {fileID: 11463218}
+  m_Layer: 0
+  m_Name: AgoraBreadMerchantTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &417176
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120558}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -23.032673, y: -26.39378, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11411188
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d92530314d6e7d44b061cdb2bfc0741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentStock: {fileID: 0}
+  carriersNber: 0
+  carrierPrefab: {fileID: 0}
+  _availableCarriers: 0
+  freightAreaIn: {fileID: 0}
+  freightAreaOut: {fileID: 0}
+--- !u!114 &11416466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a12e149c5bbf4d43891b0b663e55298, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  capacity: 3
+  workerCount: 0
+--- !u!114 &11439846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f98a3586455194cbd110a69bf4b92b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orderManager: {fileID: 0}
+--- !u!114 &11463218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3e04b8c39a75c429dece4e4b6a0f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxOrderedAmount: 5
+  stock: {fileID: 0}
+  freightAreaData: {fileID: 0}
+  ignoreInStockManager: 1
+  availabilityRange: 100
+--- !u!114 &11464728
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d7f98f52c284eb4fafaf55eb3017983, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11477410
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb7b7c4df64082d458cbdc4a1ea0fe9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  consumptionEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  consumptionRate: 15
+  requirementsBufferSize: 3
+  requirements:
+  - resourceName: iron
+    amount: 1
+  productionBufferSize: 5
+  orderManager: {fileID: 0}
+  production:
+  - resourceName: bread
+    amount: 1
+--- !u!114 &11480866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cdf4f3ce296bc46bfa34d5d17d6f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stockLock: {fileID: 0}
+  freightAreaData: {fileID: 0}
+--- !u!114 &11486010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34333e4cedea97143a5e909cbc96d644, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalStockLimit: 20
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: maxOrderedAmount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: totalStockLimit
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ignoreInStockManager
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availabilityRange
+      value: 100
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 120558}
+  m_IsPrefabParent: 1

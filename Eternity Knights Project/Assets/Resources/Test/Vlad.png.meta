@@ -1,0 +1,788 @@
+fileFormatVersion: 2
+guid: e339bba7029afa849bda0dbf7c5cb02e
+timeCreated: 1457537348
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Vlad_0
+    21300002: Vlad_1
+    21300004: Vlad_2
+    21300006: Vlad_3
+    21300008: Vlad_4
+    21300010: Vlad_5
+    21300012: Vlad_6
+    21300014: Vlad_7
+    21300016: Vlad_8
+    21300018: Vlad_9
+    21300020: Vlad_10
+    21300022: Vlad_11
+    21300024: Vlad_12
+    21300026: Vlad_13
+    21300028: Vlad_14
+    21300030: Vlad_15
+    21300032: Vlad_16
+    21300034: Vlad_17
+    21300036: Vlad_18
+    21300038: Vlad_19
+    21300040: Vlad_20
+    21300042: Vlad_21
+    21300044: Vlad_22
+    21300046: Vlad_23
+    21300048: Vlad_24
+    21300050: Vlad_25
+    21300052: Vlad_26
+    21300054: Vlad_27
+    21300056: Vlad_28
+    21300058: Vlad_29
+    21300060: Vlad_30
+    21300062: Vlad_31
+    21300064: Vlad_32
+    21300066: Vlad_33
+    21300068: Vlad_34
+    21300070: Vlad_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Vlad_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 657
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 32}
+        - {x: -11, y: 3}
+        - {x: -8, y: 0}
+        - {x: 6, y: 0}
+        - {x: 10, y: 6}
+        - {x: 10, y: 23}
+        - {x: 9, y: 32}
+    - name: Vlad_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 447
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 31}
+        - {x: -12, y: 20}
+        - {x: -12, y: 15}
+        - {x: -3, y: 0}
+        - {x: 8, y: 0}
+        - {x: 9, y: 1}
+        - {x: 9, y: 24}
+        - {x: 6, y: 31}
+    - name: Vlad_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 447
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 32}
+        - {x: -11, y: 24}
+        - {x: -11, y: 12}
+        - {x: -8, y: 0}
+        - {x: 7, y: 0}
+        - {x: 10, y: 2}
+        - {x: 10, y: 25}
+        - {x: 8, y: 32}
+    - name: Vlad_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 447
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 26}
+        - {x: 5, y: 32}
+        - {x: -5, y: 32}
+        - {x: -10, y: 26}
+        - {x: -10, y: 6}
+        - {x: -7, y: 0}
+        - {x: 3, y: 0}
+        - {x: 5, y: 3}
+        - {x: 8, y: 7}
+        - {x: 9, y: 17}
+    - name: Vlad_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 447
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 31}
+        - {x: -9, y: 30}
+        - {x: -9, y: 7}
+        - {x: -8, y: 0}
+        - {x: 8, y: 0}
+        - {x: 9, y: 1}
+        - {x: 9, y: 30}
+        - {x: 3, y: 31}
+    - name: Vlad_5
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 447
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 32}
+        - {x: -11, y: 27}
+        - {x: -11, y: 10}
+        - {x: -8, y: 1}
+        - {x: -5, y: 0}
+        - {x: 8, y: 0}
+        - {x: 10, y: 2}
+        - {x: 10, y: 21}
+        - {x: 6, y: 32}
+    - name: Vlad_6
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 447
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 32}
+        - {x: -11, y: 24}
+        - {x: -11, y: 14}
+        - {x: -7, y: 0}
+        - {x: 10, y: 0}
+        - {x: 10, y: 27}
+        - {x: 4, y: 32}
+    - name: Vlad_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 413
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 31}
+        - {x: -8, y: 30}
+        - {x: -10, y: 26}
+        - {x: -10, y: 10}
+        - {x: -8, y: 0}
+        - {x: 10, y: 0}
+        - {x: 10, y: 24}
+        - {x: 6, y: 31}
+    - name: Vlad_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 413
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 32}
+        - {x: -8, y: 31}
+        - {x: -11, y: 27}
+        - {x: -11, y: 3}
+        - {x: -6, y: 0}
+        - {x: 10, y: 0}
+        - {x: 10, y: 31}
+        - {x: 7, y: 32}
+    - name: Vlad_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 413
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 32}
+        - {x: -11, y: 28}
+        - {x: -11, y: 7}
+        - {x: -3, y: 0}
+        - {x: 10, y: 0}
+        - {x: 10, y: 32}
+    - name: Vlad_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 413
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 32}
+        - {x: -8, y: 31}
+        - {x: -12, y: 25}
+        - {x: -12, y: 11}
+        - {x: -7, y: 0}
+        - {x: 10, y: 0}
+        - {x: 10, y: 30}
+        - {x: 5, y: 32}
+    - name: Vlad_11
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 413
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 32}
+        - {x: -11, y: 29}
+        - {x: -11, y: 4}
+        - {x: -10, y: 1}
+        - {x: -9, y: 0}
+        - {x: 4, y: 0}
+        - {x: 9, y: 2}
+        - {x: 9, y: 27}
+        - {x: 4, y: 32}
+    - name: Vlad_12
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 413
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 32}
+        - {x: -11, y: 31}
+        - {x: -11, y: 1}
+        - {x: -8, y: 0}
+        - {x: 9, y: 0}
+        - {x: 10, y: 1}
+        - {x: 10, y: 28}
+        - {x: 6, y: 32}
+    - name: Vlad_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 379
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 31}
+        - {x: -10, y: 26}
+        - {x: -10, y: 1}
+        - {x: -8, y: 0}
+        - {x: 11, y: 0}
+        - {x: 11, y: 28}
+        - {x: 4, y: 31}
+    - name: Vlad_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 379
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 32}
+        - {x: -4, y: 32}
+        - {x: -11, y: 26}
+        - {x: -11, y: 14}
+        - {x: -10, y: 1}
+        - {x: -7, y: 0}
+        - {x: 9, y: 0}
+        - {x: 10, y: 1}
+        - {x: 10, y: 29}
+    - name: Vlad_15
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 379
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 29}
+        - {x: 0, y: 32}
+        - {x: -1, y: 32}
+        - {x: -10, y: 25}
+        - {x: -10, y: 6}
+        - {x: -6, y: 0}
+        - {x: 9, y: 0}
+        - {x: 11, y: 4}
+        - {x: 11, y: 20}
+        - {x: 10, y: 26}
+    - name: Vlad_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 379
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 31}
+        - {x: -10, y: 28}
+        - {x: -10, y: 0}
+        - {x: 11, y: 0}
+        - {x: 11, y: 26}
+        - {x: 4, y: 31}
+    - name: Vlad_17
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 379
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 11}
+        - {x: -9, y: 0}
+        - {x: 6, y: 0}
+        - {x: 10, y: 1}
+        - {x: 10, y: 24}
+        - {x: 9, y: 28}
+        - {x: 1, y: 32}
+        - {x: -4, y: 32}
+        - {x: -11, y: 27}
+    - name: Vlad_18
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 379
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 32}
+        - {x: -10, y: 26}
+        - {x: -10, y: 2}
+        - {x: -7, y: 0}
+        - {x: 7, y: 0}
+        - {x: 11, y: 2}
+        - {x: 11, y: 28}
+        - {x: 8, y: 32}
+    - name: Vlad_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 345
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 30}
+        - {x: 2, y: 32}
+        - {x: -4, y: 32}
+        - {x: -11, y: 26}
+        - {x: -11, y: 6}
+        - {x: -10, y: 0}
+        - {x: 2, y: 0}
+        - {x: 10, y: 10}
+        - {x: 10, y: 24}
+    - name: Vlad_20
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 345
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 32}
+        - {x: -4, y: 32}
+        - {x: -12, y: 24}
+        - {x: -12, y: 16}
+        - {x: -10, y: 8}
+        - {x: -5, y: 0}
+        - {x: 5, y: 0}
+        - {x: 9, y: 4}
+        - {x: 9, y: 26}
+    - name: Vlad_21
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 345
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 32}
+        - {x: -11, y: 0}
+        - {x: 10, y: 0}
+        - {x: 10, y: 31}
+        - {x: 9, y: 32}
+    - name: Vlad_22
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 345
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 32}
+        - {x: -11, y: 24}
+        - {x: -11, y: 1}
+        - {x: -9, y: 0}
+        - {x: 9, y: 0}
+        - {x: 9, y: 32}
+    - name: Vlad_23
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 345
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 32}
+        - {x: -4, y: 32}
+        - {x: -12, y: 26}
+        - {x: -12, y: 12}
+        - {x: -7, y: 0}
+        - {x: 4, y: 0}
+        - {x: 10, y: 6}
+        - {x: 10, y: 18}
+        - {x: 9, y: 26}
+    - name: Vlad_24
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 345
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 32}
+        - {x: -11, y: 26}
+        - {x: -11, y: 12}
+        - {x: -10, y: 7}
+        - {x: -7, y: 1}
+        - {x: -5, y: 0}
+        - {x: 5, y: 0}
+        - {x: 10, y: 6}
+        - {x: 10, y: 27}
+        - {x: 4, y: 32}
+    - name: Vlad_25
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 311
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 32}
+        - {x: -9, y: 29}
+        - {x: -9, y: 3}
+        - {x: -5, y: 0}
+        - {x: 8, y: 0}
+        - {x: 12, y: 8}
+        - {x: 12, y: 25}
+        - {x: 8, y: 32}
+    - name: Vlad_26
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 311
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 32}
+        - {x: -6, y: 32}
+        - {x: -10, y: 29}
+        - {x: -10, y: 4}
+        - {x: -9, y: 0}
+        - {x: 3, y: 0}
+        - {x: 11, y: 7}
+        - {x: 11, y: 23}
+        - {x: 8, y: 30}
+    - name: Vlad_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 311
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 32}
+        - {x: -4, y: 32}
+        - {x: -9, y: 26}
+        - {x: -9, y: 16}
+        - {x: -8, y: 7}
+        - {x: -7, y: 0}
+        - {x: 6, y: 0}
+        - {x: 11, y: 8}
+        - {x: 11, y: 24}
+        - {x: 8, y: 29}
+    - name: Vlad_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 311
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 32}
+        - {x: -7, y: 32}
+        - {x: -9, y: 26}
+        - {x: -9, y: 3}
+        - {x: -8, y: 0}
+        - {x: 4, y: 0}
+        - {x: 9, y: 5}
+        - {x: 10, y: 12}
+        - {x: 10, y: 28}
+    - name: Vlad_29
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 311
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 32}
+        - {x: -5, y: 32}
+        - {x: -10, y: 25}
+        - {x: -10, y: 6}
+        - {x: -2, y: 0}
+        - {x: 5, y: 0}
+        - {x: 11, y: 6}
+        - {x: 11, y: 24}
+        - {x: 10, y: 31}
+    - name: Vlad_30
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 311
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 32}
+        - {x: -4, y: 32}
+        - {x: -10, y: 23}
+        - {x: -10, y: 7}
+        - {x: -4, y: 0}
+        - {x: 8, y: 0}
+        - {x: 11, y: 12}
+        - {x: 11, y: 23}
+        - {x: 10, y: 28}
+    - name: Vlad_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 657
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 32}
+        - {x: -10, y: 32}
+        - {x: -11, y: 31}
+        - {x: -11, y: 5}
+        - {x: -7, y: 0}
+        - {x: 6, y: 0}
+        - {x: 6, y: 1}
+        - {x: 10, y: 8}
+        - {x: 10, y: 31}
+    - name: Vlad_32
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 657
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 32}
+        - {x: -9, y: 32}
+        - {x: -11, y: 25}
+        - {x: -11, y: 11}
+        - {x: -7, y: 0}
+        - {x: 6, y: 0}
+        - {x: 6, y: 1}
+        - {x: 10, y: 8}
+        - {x: 10, y: 31}
+    - name: Vlad_33
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 657
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 32}
+        - {x: -9, y: 32}
+        - {x: -11, y: 25}
+        - {x: -11, y: 11}
+        - {x: -7, y: 0}
+        - {x: 6, y: 0}
+        - {x: 6, y: 1}
+        - {x: 10, y: 8}
+        - {x: 10, y: 31}
+    - name: Vlad_34
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 657
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 32}
+        - {x: -11, y: 28}
+        - {x: -11, y: 7}
+        - {x: -9, y: 0}
+        - {x: 6, y: 0}
+        - {x: 10, y: 3}
+        - {x: 10, y: 25}
+        - {x: 8, y: 32}
+    - name: Vlad_35
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 657
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 32}
+        - {x: -8, y: 32}
+        - {x: -12, y: 30}
+        - {x: -12, y: 7}
+        - {x: -7, y: 0}
+        - {x: 5, y: 0}
+        - {x: 5, y: 1}
+        - {x: 9, y: 7}
+        - {x: 9, y: 28}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,44 @@
+<DialogXML>
+	<postAction>TestDialogReflection:kikoo</postAction>
+	<Dialog>
+		<Sentence>
+			<text author="Coiffeur">
+				Coiffeur : Bonjour ! Installez-vous,
+				c'est pour un mariage donc ?
+			</text>
+			<postAction>TestDialogReflection:kikoo</postAction>
+		</Sentence>
+		<Sentence id="2">
+			<text author="Player">
+				Tout à fait, j'aimerais bien avoir les
+				cheveux de couleur...
+			</text>
+			<preAction>anotherTest</preAction>
+			<postAction>advancedKikoo</postAction>
+			<Choices>
+			<Choice goToId="1">
+				<text>bleue !</text>
+			</Choice>
+			<Choice goToId="4">
+				<text>verte !</text>
+			</Choice>
+			<Choice goToId="3">
+				<text>rouge !</text>
+			</Choice>
+		</Choices>
+		</Sentence>
+		<Sentence id="3">
+			<text>END_OF_CONV</text>
+		</Sentence>
+		<Sentence id="1">
+			<text>Bleu ce sera donc !</text>
+			<postAction>advancedKikoo</postAction>
+		</Sentence>
+		<Sentence>
+			<text>END_OF_CONV</text>
+		</Sentence>
+		<Sentence id="4">
+			<text>Vert ! Mais vous etes fou ?</text>
+		</Sentence>
+	</Dialog>
+</DialogXML>
